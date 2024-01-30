@@ -1,6 +1,6 @@
 # Useful scripts
 
-list_nested_projects_with_project_number_gcp.sh
+## list_nested_projects_with_project_number_gcp.sh
 </br>
 Lists all project with project number in a folder and will include project in all subfolders as well.
 Project number is rarely used in GCP, this usecase is for VPC SC (Virtual Private Cloud Service Control) setup.
