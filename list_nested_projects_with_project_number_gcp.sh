@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # file to store project numbers
-output_file="project_numbers.txt"
+output_file=$ROOT_FOLDER_ID"_project_numbers.txt"
 
 # Function to list projects in a folder
 list_projects() {
