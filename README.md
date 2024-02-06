@@ -1,5 +1,7 @@
 # Useful scripts
 
+For scripting I mainly write bash, thats the most obvious choice if you work in the cloud as everything is Linux based, so it just works.
+
 ## list_nested_projects_with_project_number_gcp.sh
 The script lists all project with project number in a folder and will include project in all subfolders as well. </br>
 Project number is rarely used in GCP, this usecase is for VPC SC (Virtual Private Cloud Service Control) setup.
