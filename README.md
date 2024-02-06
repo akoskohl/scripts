@@ -7,6 +7,10 @@ Our client needed a new perimeter for all the "old cloud projects" when we imple
 This script helped me include all the projects to new VPC SC without any manual digging for project numbers.
 </br>
 
+## get_iterm_terminal_colors.sh
+The script generates a color palette. This can be useful for reference if you want to change colors or create a theme in iTerm2, the terminal emulator I use for macOS.
+</br>
+
 ## list_organizational_policies_json_gcp.sh
 The script is used to list the organizational policies in JSON format in GCP. It retrieves and displays the policies that have been set at the organization level, providing information about the policies and their configurations. This script can be helpful for auditing and managing organizational policies in GCP.
 </br>
