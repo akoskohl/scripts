@@ -8,15 +8,11 @@ foldername=day$dayNumber
 mkdir $foldername
 cd $foldername
 
-
 inputfile=day$dayNumber"-input.txt"
-URL=https://adventofcode.com/2023/day/$dayNumber"/input"
-
-curl -o "$inputfile" "$URL"
 
 touch day$dayNumber"-test1.txt"
 touch day$dayNumber"-test2.txt"
-
+touch $inputfile
 
 cat << EOF > day$dayNumber"-part1.js"
 const fs = require('fs');
