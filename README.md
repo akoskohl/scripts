@@ -9,6 +9,11 @@ Our client needed a new perimeter for all the "old cloud projects" when we imple
 This script helped me include all the projects to new VPC SC without any manual digging for project numbers.
 </br>
 
+## create_folder_and_files_for_aoc.sh
+The script is designed to automate the setup for a day of the Advent of Code challenge.
+When run, it prompts the user to enter a day number. It then creates a new directory named "dayX", creates several files: an input file and two test files for the day's challenge, as well as JavaScript and Python files for parts 1 and 2 of the challenge.
+</br>
+
 ## get_iterm_terminal_colors.sh
 The script generates a color palette. This can be useful for reference if you want to change colors or create a theme in iTerm2, the terminal emulator I use for macOS.
 </br>
