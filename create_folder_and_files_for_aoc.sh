@@ -5,10 +5,15 @@ read dayNumber
 
 foldername=day$dayNumber
 
+session=$(cat aoc_session.txt)
+
 mkdir $foldername
 cd $foldername
 
 inputfile=day$dayNumber"-input.txt"
+URL="https://adventofcode.com/2023/day/$dayNumber/input"
+
+curl -b session=$session $URL > $inputfile
 
 touch day$dayNumber"-test1.txt"
 touch day$dayNumber"-test2.txt"
