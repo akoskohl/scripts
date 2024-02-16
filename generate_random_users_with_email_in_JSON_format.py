@@ -14,3 +14,13 @@ def generate_username(name):
 def generate_email(name):
     return f"{name.replace(' ', '').lower()}@doesnotexists.com"
 
+def generate_user_info(user_id):
+    name = generate_name()
+    username = generate_username(name)
+    email = generate_email(name)
+    return {
+        "id": user_id,
+        "name": name,
+        "username": username,
+        "email": email
+    }
