@@ -1,6 +1,9 @@
 import json
 import random
 import string
+
+how_many_users = 100
+
 def generate_name():
     first_names = ["John", "Emma", "Michael", "Sophia", "William", "Olivia", "James", "Ava", "Benjamin", "Isabella"]
     last_names = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis", "Garcia", "Rodriguez", "Martinez"]
@@ -24,3 +27,13 @@ def generate_user_info(user_id):
         "username": username,
         "email": email
     }
+
+if __name__ == "__main__":
+    users = []
+    for i in range(1, how_many_users):
+        users.append(generate_user_info(i))
+
+    with open("random_users_with_email", "w") as file:
+        json.dump(users, file, indent=4)
+    
+    print("File generated")
