@@ -11,3 +11,6 @@ def generate_name():
 def generate_username(name):
     return name.lower().replace(" ", "_")
 
+def generate_email(name):
+    return f"{name.replace(' ', '').lower()}@doesnotexists.com"
+
