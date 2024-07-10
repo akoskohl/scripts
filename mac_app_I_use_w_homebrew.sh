@@ -4,6 +4,7 @@
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 set -v
+
 brew install --cask shortcat
 brew install --cask iterm2
 brew install --cask rectangle
@@ -15,8 +16,10 @@ brew install --cask postman
 brew install --cask prusaslicer
 brew install --cask jupyterlab
 brew install --cask raspberry-pi-imager
+brew install python@3.9
 brew install docker
 brew install git
+brew install lazygit
 brew install black
 brew install jmeter
 brew install kubernetes-cli
@@ -26,8 +29,15 @@ brew install neovim
 brew install node
 brew install nvm
 brew install tfenv
-brew install tmux
+brew install helm
+brew install fzf
+brew install --cask mongodb-compass
+
+# brew install tmux
+# brew install bash
+# brew install tnk-studio/tools/lazykube
+# brew install python@3.10
+
 
 # Appstore:
-
 # Velja
