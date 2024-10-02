@@ -13,6 +13,7 @@ env:
   WIF_PROVIDER:
   SERVICE_ACCOUNT:
   REGISTRY:
+  WORKINGDIR:
 
 jobs:
   deploy:
@@ -23,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: DataFleetFrontend
+        working-directory: ${{env.WORKINGDIR}}
 
     steps:
       - name: Checkout
